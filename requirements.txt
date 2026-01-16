@@ -1,0 +1,63 @@
+# ============================================================
+# TurbineSysSim - Engineering Simulation Stack
+# Author: Arildo Yank
+# Target: macOS Apple Silicon / Linux / Windows
+# ============================================================
+
+# -----------------------------
+# Core scientific computing
+# -----------------------------
+numpy>=1.26,<2.0
+scipy>=1.11,<1.14
+pandas>=2.1,<2.4
+
+# -----------------------------
+# Plotting & real-time charts
+# -----------------------------
+matplotlib>=3.8,<3.11
+pyqtgraph>=0.13
+
+# -----------------------------
+# GUI / Desktop application
+# -----------------------------
+PyQt6>=6.6
+PyQt6-sip>=13.6
+
+# -----------------------------
+# OpenGL / 3D visualisation
+# -----------------------------
+PyOpenGL>=3.1.7
+PyOpenGL-accelerate>=3.1.7
+
+# High-level GPU visualisation (recommended)
+vispy>=0.14
+
+# -----------------------------
+# Geometry & math helpers
+# -----------------------------
+sympy>=1.12
+
+# -----------------------------
+# Configuration & data
+# -----------------------------
+pyyaml>=6.0
+
+# -----------------------------
+# Performance & acceleration
+# -----------------------------
+numba>=0.58
+
+# -----------------------------
+# Logging & utilities
+# -----------------------------
+rich>=13.7
+
+# -----------------------------
+# Testing
+# -----------------------------
+pytest>=7.4
+
+# -----------------------------
+# Optional (future diagnostics / ML)
+# -----------------------------
+scikit-learn>=1.4
